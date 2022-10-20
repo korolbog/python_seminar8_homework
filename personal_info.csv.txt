@@ -1,0 +1,12 @@
+ID_person, Pass_card, Family_name, First_name, Second_Name, Birth_year,
+1, 1543, Cliffton, Peter, Theodore, 1957,
+2, 1235, Swedenborg, Antti, Mikael, 1968,
+3, 2234, Landwalker, Luke, Jefferson, 2000,
+4, 4598, Miranda, Abel, Pedro, 1982,
+5, 9916, Fukinada, Alice, Michel, 1981,
+10,2020,Doe,John,Carl,1971
+
+11,4321,Hardstone,Joseph,Michael,1980
+
+5421,9090,Buffet,Phoebie,Anna,1975
+

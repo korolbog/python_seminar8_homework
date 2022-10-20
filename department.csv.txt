@@ -1,0 +1,12 @@
+ID_person, Department, Position,
+1, C-level Management, Chief Executive Officer,
+2, Legal Department, Legal Advisor,
+3, Logistics Department, Logistics Director,
+4, Sales Department, Sales Representative,
+5, Accounting Department, Accountant,
+10,Accounting Dpt.,Department Head
+
+11,Financial,Senior Specialist
+
+5421,HSE,Environmental specialist
+
