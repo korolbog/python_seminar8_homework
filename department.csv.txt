@@ -10,3 +10,4 @@ ID_person, Department, Position,
 
 5421,HSE,Environmental specialist
 
+2345,Logistics,Forklift Operator

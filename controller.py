@@ -10,3 +10,7 @@ def start_system():
         opshell.show_all_files_content()
     elif input_command == 2:
         opshell.add_data()
+    elif input_command == 3:
+        opshell.search()
+    elif input_command == 4:
+        opshell.delete()

@@ -10,3 +10,4 @@ ID_person, monthly_salary
 
 5421,999
 
+2345,2567

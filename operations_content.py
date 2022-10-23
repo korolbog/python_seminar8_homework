@@ -54,3 +54,54 @@ def add_entry():
         dictwriter.writerow(salary_info_dict)
         department_info_file.close()
     print('Спасибо. Данные внесены.')
+
+
+def search_id():
+    id_to_search = input('Введите искомую фамилию сотрудника: ')
+
+    with open('personal_info.csv.txt', 'r') as file:
+        lines = file.readlines()
+        for line in lines:
+            if id_to_search in line:
+                print(line)
+    with open('department.csv.txt', 'r') as file:
+        lines = file.readlines()
+        for line in lines:
+            if id_to_search in line:
+                print(line)
+    with open('salary.csv.txt', 'r') as file:
+        lines = file.readlines()
+        for line in lines:
+            if id_to_search in line:
+                print(line)
+
+def delete_entry():
+    surname_to_delete = input('Введите фамилию сотрудника для удаления: ')
+
+    with open('personal_info.csv.txt', 'r') as rfile:
+        lines = rfile.readlines()
+        surname_to_delete = input('Введите номер телефона для удаления: ')
+        with open('personal_info.csv.txt', 'w') as wfile:
+            for line in lines:
+                if surname_to_delete not in line:
+                    wfile.write(line)
+                    print(line)
+
+
+    with open('department.csv.txt', 'r') as rfile:
+        lines = rfile.readlines()
+        surname_to_delete = input('Введите номер телефона для удаления: ')
+        with open('department.csv.txt', 'w') as wfile:
+            for line in lines:
+                if surname_to_delete not in line:
+                    wfile.write(line)
+                    print(line)
+
+    with open('salary.csv.txt', 'r') as rfile:
+        lines = rfile.readlines()
+        surname_to_delete = input('Введите номер телефона для удаления: ')
+        with open('salary.csv.txt', 'w') as wfile:
+            for line in lines:
+                if surname_to_delete not in line:
+                    wfile.write(line)
+                    print(line)

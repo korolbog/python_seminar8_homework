@@ -11,3 +11,11 @@ def show_all_files_content():
 def add_data():
     opcon.add_entry()
     logger.add_log_entry(f'запрос на добавление данных')
+
+def search():
+    opcon.search_id()
+    logger.add_log_entry('поиск сотрудника по фамилии')
+
+def delete():
+    opcon.delete_entry()
+    logger.add_log_entry('удаление сотрудника по фамилии')
